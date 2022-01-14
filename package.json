@@ -1,0 +1,25 @@
+{
+  "name": "is-npm-free",
+  "version": "1.0.0",
+  "description": "check if npm package name is free",
+  "bin": {
+    "is-npm-free": "cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://git@github.com:stagas/is-npm-free.git"
+  },
+  "scripts": {
+    "test": "echo ok"
+  },
+  "keywords": [
+    "npm",
+    "name",
+    "package"
+  ],
+  "author": "stagas",
+  "license": "MIT",
+  "dependencies": {
+    "is-name-taken": "^2.0.0"
+  }
+}
